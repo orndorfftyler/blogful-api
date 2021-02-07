@@ -2,6 +2,6 @@ module.exports = {
     PORT: process.env.PORT || 8000,
     NODE_ENV: process.env.NODE_ENV || 'development',
     //DB_URL: process.env.DB_URL || 'postgresql://dunder_mifflin@localhost/blogful',
-    DATABASE_URL: process.env.DATABASE_URL + '?sslmode=require' || 'postgresql://dunder_mifflin@localhost/blogful?ssl=true',
-    TEST_DATABASE_URL: process.env.TEST_DATABASE_URL || 'postgresql://dunder_mifflin@localhost/blogful-test?ssl=true'
+    DATABASE_URL: process.env.DATABASE_URL || 'postgresql://dunder_mifflin@localhost/blogful',
+    TEST_DATABASE_URL: process.env.TEST_DATABASE_URL || 'postgresql://dunder_mifflin@localhost/blogful-test'
   }
