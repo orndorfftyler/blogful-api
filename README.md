@@ -1,4 +1,4 @@
-# Express Boilerplate!
+# blogful-api
 
 psql -U dunder_mifflin -d blogful -f ./seeds/seed.blogful_articles.sql
 
