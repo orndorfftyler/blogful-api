@@ -8,7 +8,7 @@ const db = knex({
   client: 'pg',
   //connection: DB_URL,
   connection: DATABASE_URL,
-  ssl: { rejectUnauthorized: false }
+  //ssl: { rejectUnauthorized: false }
 })
 
 app.set('db', db)
