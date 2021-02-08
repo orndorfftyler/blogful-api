@@ -1,4 +1,4 @@
-CREATE TYPE article_category AS ENUM (
+CREATE TYPE public.article_category AS ENUM (
     'Listicle',
     'How-to',
     'News',
@@ -6,6 +6,6 @@ CREATE TYPE article_category AS ENUM (
     'Story'
 );
 
-ALTER TABLE blogful_articles
+ALTER TABLE public.blogful_articles
   ADD COLUMN
     style article_category;
