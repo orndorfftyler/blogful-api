@@ -1,9 +1,9 @@
 require('dotenv').config();
 
 module.exports = {
-  /*
+  
   "migrationsDirectory": "migrations",
-  "driver": "pg",
+  "driver": "pg" /*,
   "user": 'wlqbllwezbhhjd',
   "host": 'ec2-52-205-3-3.compute-1.amazonaws.com',
   "database": 'd5b055a43h20co',
