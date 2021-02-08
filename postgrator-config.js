@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 module.exports = {
+  /*
   "migrationsDirectory": "migrations",
   "driver": "pg",
   "user": 'wlqbllwezbhhjd',
@@ -8,6 +9,7 @@ module.exports = {
   "database": 'd5b055a43h20co',
   "password": '66ddd08a3c84a7bbcb53c0c25b49853a9ac4e0713c668b7baac31e6489412e79',
   "port": '5432'
+  */
   //"connectionString": process.env.DATABASE_URL
 
         //: process.env.DATABASE_URL + '?sslmode=require',
