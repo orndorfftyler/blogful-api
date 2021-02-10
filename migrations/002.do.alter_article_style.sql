@@ -1,4 +1,4 @@
-CREATE TYPE public.article_category AS ENUM (
+CREATE TYPE article_category AS ENUM (
     'Listicle',
     'How-to',
     'News',
