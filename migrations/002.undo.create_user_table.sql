@@ -1,0 +1,5 @@
+ALTER TABLE appointments
+  DROP COLUMN IF EXISTS user_id;
+
+DROP TABLE IF EXISTS mav_users
+CASCADE;
