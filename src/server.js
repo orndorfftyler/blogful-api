@@ -7,6 +7,8 @@ const { PORT, DATABASE_URL } = require('./config')
 const db = knex({
   client: 'pg',
   connection: DATABASE_URL
+})
+
   /*
   user: 'wlqbllwezbhhjd',
   host: 'ec2-52-205-3-3.compute-1.amazonaws.com',
@@ -15,7 +17,7 @@ const db = knex({
   port: '5432'
  */
   //ssl: { rejectUnauthorized: false }
-})
+
 
 app.set('db', db)
   
